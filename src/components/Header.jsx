@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import Telescope from 'lucide-react/dist/esm/icons/telescope'
-import Menu from 'lucide-react/dist/esm/icons/menu'
-import X from 'lucide-react/dist/esm/icons/x'
+import { Eye, Menu, X } from 'lucide-react'
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -52,7 +50,7 @@ export default function Header() {
             <div className={`p-2 rounded-xl transition-all duration-300 ${
               isScrolled ? 'bg-primary-600' : 'bg-white/20 backdrop-blur-sm'
             }`}>
-              <Telescope 
+              <Eye 
                 className={`w-8 h-8 transition-all duration-300 ${
                   isScrolled ? 'text-white' : 'text-white'
                 }`} 

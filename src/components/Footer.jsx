@@ -1,12 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import Telescope from 'lucide-react/dist/esm/icons/telescope'
-import Mail from 'lucide-react/dist/esm/icons/mail'
-import Phone from 'lucide-react/dist/esm/icons/phone'
-import MapPin from 'lucide-react/dist/esm/icons/map-pin'
-import Rocket from 'lucide-react/dist/esm/icons/rocket'
-import Star from 'lucide-react/dist/esm/icons/star'
-import Globe from 'lucide-react/dist/esm/icons/globe'
+import { Eye, Mail, Phone, MapPin, Rocket, Star, Globe } from 'lucide-react'
 
 export default function Footer() {
   const scrollToSection = (sectionId) => {
@@ -55,7 +49,7 @@ export default function Footer() {
               >
                 <div className="flex items-center space-x-3 mb-6">
                   <div className="bg-gradient-to-br from-primary-500 to-accent-500 p-3 rounded-xl">
-                    <Telescope className="w-8 h-8 text-white" />
+                    <Eye className="w-8 h-8 text-white" />
                   </div>
                   <h3 className="text-2xl font-bold">Iuriiiiiiu</h3>
                 </div>

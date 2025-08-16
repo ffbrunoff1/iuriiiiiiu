@@ -1,11 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
-import Telescope from 'lucide-react/dist/esm/icons/telescope'
-import Zap from 'lucide-react/dist/esm/icons/zap'
-import Shield from 'lucide-react/dist/esm/icons/shield'
-import Star from 'lucide-react/dist/esm/icons/star'
-import Rocket from 'lucide-react/dist/esm/icons/rocket'
-import Settings from 'lucide-react/dist/esm/icons/settings'
+import { Zap, Shield, Star, Rocket, Settings } from 'lucide-react'
 
 export default function Services() {
   const [activeTab, setActiveTab] = useState(0)
